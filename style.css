@@ -14,10 +14,21 @@ body{
 .trybewarts-login{
     display: flex;
     justify-content: space-around;
+    align-items: center;
+    width: 470px;
 }
 .input-login, .botao-login{
     border-radius: 0.5em;
     border-style: none;
-    width: 100px;
-    height: 22px;
+    width: 150px;
+    height: 37px;
+    font-weight: 600;
+    font-size: 15px;
+}
+.botao-login{
+    color: white;
+    background-color: rgb(80, 20, 114);
+    font-weight: 700;
+    height: 39px;
+    text-align: center;
 }
