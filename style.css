@@ -1,42 +1,42 @@
 body {
-    font-weight: 500;
-    padding: 0;
-    margin: 0;
-    background-color: rgba(216, 207, 207, 0.363) ;
+  font-weight: 500;
+  padding: 0;
+  margin: 0;
+  background-color: rgba(216, 207, 207, 0.363) ;
 }
 
 .header {
-    display: flex;
-    justify-content: space-between;
-    padding-left: 10px;
-    padding-right: 10px;
-    align-items: center;
-    background-color: rgb(50 , 167 , 145);
-    color: white;
+  display: flex;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+  align-items: center;
+  background-color: rgb(50 , 167 , 145);
+  color: white;
 }
 
 .trybewarts-login {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    width: 470px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 470px;
 }
 
 .input-login, .botao-login {
-    border-radius: 0.5em;
-    border-style: none;
-    width: 150px;
-    height: 37px;
-    font-weight: 600;
-    font-size: 15px;
+	border-radius: 0.5em;
+	border-style: none;
+	width: 150px;
+	height: 37px;
+  font-weight: 600;
+  font-size: 15px;
 }
 
 .botao-login {
-    color: white;
-    background-color: rgb(80, 20, 114);
-    font-weight: 700;
-    height: 39px;
-    text-align: center;
+  color: white;
+  background-color: rgb(80, 20, 114);
+  font-weight: 700;
+  height: 39px;
+  text-align: center;
 }
 
 .textarea {
@@ -50,89 +50,89 @@ main {
 }
 
 #principal-da-main {
-    justify-content: flex-start;
-    flex-direction: column;
-    text-align: center;
-    color: black;
-    width: 675px;
+	justify-content: flex-start;
+	flex-direction: column;
+	text-align: center;
+	color: black;
+	width: 675px;
 }
 
 .evaluation-form-itens, #evaluation-form-itens {
-    border-radius: 0.5em;
-    border-style: none;
-    height: 30px;
-    width: 200px;
-    margin: 2px;
+  border-radius: 0.5em;
+  border-style: none;
+  height: 30px;
+  width: 200px;
+  margin: 2px;
 }
 
 .evaluation-form-itens {
-    width: 160px;
-    background-color: white;
+  width: 160px;
+  background-color: white;
 } 
 
 .evaluation-form {
-    display: flex;
-    justify-content: flex-start;
+  display: flex;
+  justify-content: flex-start;
 }
 
 #trybewarts-forms-logo {
-    height: 500px;
+  height: 500px;
 }
 
 fieldset {
-    display: flex;
-    justify-content: space-around;
-    height: 160px;
-    width:675px ;
+  display: flex;
+  justify-content: space-around;
+  height: 160px;
+  width:675px ;
 }
 
 #form2 {
-    width: 675px;
+  width: 675px;
 }
 
 #familia-conteudo {
-    height: 200px;
-    display: flex;
-    justify-content: flex-start;
-    margin-top: 5px;
-    padding: 10px;
-    text-align: start;
+  height: 200px;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 5px;
+  padding: 10px;
+  text-align: start;
 }
 
 #label-family {
-    display: flex;
-    flex-flow: column;
-    justify-content: center;
-    width: 180px;
-    padding: 10px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  width: 180px;
+  padding: 10px;
 }
 
 #label-content {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: center;
-    width: 180px;
-    padding: 10px;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 180px;
+  padding: 10px;
 }
 
 #conjunto {
-    text-align: start;
+  text-align: start;
 }
 
 #submit-btn {
-    width: 705px;
-    color: white;
-    background-color: rgb(80, 20, 114);
-    font-weight: 700;
-    height: 39px;
-    text-align: center;
-    border-style: none;
-    border-radius: 0.5em;
-    margin-top: 20px;
+  width: 705px;
+  color: white;
+  background-color: rgb(80, 20, 114);
+  font-weight: 700;
+  height: 39px;
+  text-align: center;
+  border-style: none;
+  border-radius: 0.5em;
+  margin-top: 20px;
 }
 
 footer {
-    width: 100%;
-    text-align: center;
-    background-color: gray;
+  width: 100%;
+  text-align: center;
+  background-color: gray;
 }
