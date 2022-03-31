@@ -39,11 +39,17 @@ body{
 }
 
 main {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#principal-da-main {
     justify-content: space-around;
     flex-direction: column;
     text-align: center;
     padding: 10px;
     color: black;
+    width: 700px;
 }
 
 .evaluation-form-itens, #evaluation-form-itens{
@@ -64,8 +70,23 @@ main {
     justify-content: space-around;
 }
 
+#trybewarts-forms-logo {
+    height: 500px;
+}
+
 fieldset {
     display: flex;
     justify-content: space-around;
     height: 160px;
+    width:675px ;
+}
+
+#conjunto{
+    text-align: start;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    background-color: gray;
 }
