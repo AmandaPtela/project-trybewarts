@@ -23,10 +23,10 @@ body {
 }
 
 .input-login , .botao-login {
-	border-radius: 0.5em;
-	border-style: none;
-	width: 150px;
-	height: 37px;
+  border-radius: 0.5em;
+  border-style: none;
+  width: 150px;
+  height: 37px;
   font-weight: 600;
   font-size: 15px;
 }
@@ -50,50 +50,50 @@ main {
 }
 
 h2 {
-	text-align: center;
+  text-align: center;
 }
 
 #principal-da-main {
-	justify-content: flex-start;
-	flex-direction: column;
-	color: black;
-	width: 675px;
+  justify-content: flex-start;
+  flex-direction: column;
+  color: black;
+  width: 675px;
 }
 
 select {
   width: 240px;
-	height: 50px;
-	font-size: 17px;
+  height: 50px;
+  font-size: 17px;
   background-color: white;
-	border-radius: 0.5em;
+  border-radius: 0.5em;
   border-style: none;
 }
+
 option {
-	font-size: 20px;
+  font-size: 20px;
 }
 
 #input-name , #input-lastname , #input-email {
-	border-radius: 0.5em;
+  border-radius: 0.5em;
   border-style: none;
   height: 50px;
   width: 280px;
   margin: 5px;
-	font-size: 17px;
+  font-size: 17px;
 }
 
 label {
-	font-size: 20px;
+  font-size: 20px;
 }
 
 .evaluation-form {
-	width: 675px;
-	display: flex;
-	flex-direction: column;
+  width: 675px;
+  display: flex;
+  flex-direction: column;
 }
 
 #trybewarts-forms-logo {
   height: 500px;
-
 }
 
 fieldset {
@@ -110,7 +110,7 @@ fieldset {
   margin-top: 5px;
   padding: 10px;
   text-align: start;
-	font-size: 20px;
+  font-size: 20px;
 }
 
 #label-family {
@@ -122,7 +122,7 @@ fieldset {
 }
 
 p {
-	margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 #label-content {
@@ -131,11 +131,11 @@ p {
   justify-content: center;
   width: 300px;
   padding: 10px;
-	margin-top: 20px;
+  margin-top: 20px;
 }
 
 .input-familia {
-	margin-right: 7px;
+  margin-right: 7px;
 }
 
 #conjunto {
