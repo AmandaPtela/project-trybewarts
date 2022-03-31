@@ -44,15 +44,17 @@ body {
 }
 
 main {
-    display: flex;
-    flex-direction: row-reverse;
-    justify-content: space-evenly;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
 }
 
+h2 {
+	text-align: center;
+}
 #principal-da-main {
 	justify-content: flex-start;
 	flex-direction: column;
-	text-align: center;
 	color: black;
 	width: 675px;
 }
@@ -61,18 +63,17 @@ main {
   border-radius: 0.5em;
   border-style: none;
   height: 30px;
-  width: 200px;
-  margin: 2px;
+  width: 220px;
+  margin: 5px;
 }
 
 .evaluation-form-itens {
-  width: 160px;
+  width: 170px;
   background-color: white;
 } 
 
 .evaluation-form {
-  display: flex;
-  justify-content: flex-start;
+	width: 675px;
 }
 
 #trybewarts-forms-logo {
@@ -103,16 +104,25 @@ fieldset {
   display: flex;
   flex-flow: column;
   justify-content: center;
-  width: 180px;
+  width: 200px;
   padding: 10px;
+}
+
+p {
+	margin-bottom: 0;
 }
 
 #label-content {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  width: 180px;
+  width: 300px;
   padding: 10px;
+	margin-top: 20px;
+}
+
+.input-familia {
+	margin-right: 7px;
 }
 
 #conjunto {
@@ -120,7 +130,7 @@ fieldset {
 }
 
 #submit-btn {
-  width: 705px;
+  width: 680px;
   color: white;
   background-color: rgb(80, 20, 114);
   font-weight: 700;
