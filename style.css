@@ -61,19 +61,28 @@ h2 {
 }
 
 select {
-  width: 170px;
-	height: 30px;
+  width: 240px;
+	height: 50px;
+	font-size: 17px;
   background-color: white;
 	border-radius: 0.5em;
   border-style: none;
+}
+option {
+	font-size: 20px;
 }
 
 #input-name , #input-lastname , #input-email {
 	border-radius: 0.5em;
   border-style: none;
-  height: 30px;
-  width: 290px;
+  height: 50px;
+  width: 280px;
   margin: 5px;
+	font-size: 17px;
+}
+
+label{
+	font-size: 20px;
 }
 
 .evaluation-form {
@@ -94,10 +103,6 @@ fieldset {
   width:675px ;
 }
 
-#form2 {
-  width: 675px;
-}
-
 #familia-conteudo {
   height: 200px;
   display: flex;
@@ -105,6 +110,7 @@ fieldset {
   margin-top: 5px;
   padding: 10px;
   text-align: start;
+	font-size: 20px;
 }
 
 #label-family {
