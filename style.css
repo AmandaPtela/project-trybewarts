@@ -64,3 +64,8 @@ main {
     justify-content: space-around;
 }
 
+fieldset {
+    display: flex;
+    justify-content: space-around;
+    height: 160px;
+}
