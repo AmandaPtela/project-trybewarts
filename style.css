@@ -1,6 +1,7 @@
 body{
     padding: 0;
     margin: 0;
+    background-color: rgba(216, 207, 207, 0.363) ;
 }
 .header{
     display: flex;
@@ -36,10 +37,31 @@ body{
 .textarea {
     display: block;
 }
-main, .evaluation-form{
-    display: flex;
+
+main {
+    justify-content: space-around;
     flex-direction: column;
+    text-align: center;
+    padding: 10px;
+    color: black;
 }
-.evaluation-form{
-    width: 675px
+
+.evaluation-form-itens, #evaluation-form-itens{
+    border-radius: 0.5em;
+    border-style: none;
+    height: 30px;
+    width: 200px;
+    margin: 2px;
 }
+.evaluation-form-itens{
+    width: 160px;
+    background-color: white;
+} 
+
+.evaluation-form {
+    width: 675px;
+    display: flex;
+    justify-content: space-around;
+
+}
+
