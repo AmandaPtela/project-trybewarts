@@ -36,3 +36,10 @@ body{
 .textarea {
     display: block;
 }
+main, .evaluation-form{
+    display: flex;
+    flex-direction: column;
+}
+.evaluation-form{
+    width: 675px
+}
