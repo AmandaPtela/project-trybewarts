@@ -1,10 +1,11 @@
-body{
+body {
     font-weight: 500;
     padding: 0;
     margin: 0;
     background-color: rgba(216, 207, 207, 0.363) ;
 }
-.header{
+
+.header {
     display: flex;
     justify-content: space-between;
     padding-left: 10px;
@@ -13,13 +14,15 @@ body{
     background-color: rgb(50 , 167 , 145);
     color: white;
 }
-.trybewarts-login{
+
+.trybewarts-login {
     display: flex;
     justify-content: space-around;
     align-items: center;
     width: 470px;
 }
-.input-login, .botao-login{
+
+.input-login, .botao-login {
     border-radius: 0.5em;
     border-style: none;
     width: 150px;
@@ -27,7 +30,8 @@ body{
     font-weight: 600;
     font-size: 15px;
 }
-.botao-login{
+
+.botao-login {
     color: white;
     background-color: rgb(80, 20, 114);
     font-weight: 700;
@@ -53,14 +57,15 @@ main {
     width: 675px;
 }
 
-.evaluation-form-itens, #evaluation-form-itens{
+.evaluation-form-itens, #evaluation-form-itens {
     border-radius: 0.5em;
     border-style: none;
     height: 30px;
     width: 200px;
     margin: 2px;
 }
-.evaluation-form-itens{
+
+.evaluation-form-itens {
     width: 160px;
     background-color: white;
 } 
@@ -80,7 +85,8 @@ fieldset {
     height: 160px;
     width:675px ;
 }
-#form2{
+
+#form2 {
     width: 675px;
 }
 
@@ -109,7 +115,7 @@ fieldset {
     padding: 10px;
 }
 
-#conjunto{
+#conjunto {
     text-align: start;
 }
 
