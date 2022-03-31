@@ -81,7 +81,7 @@ option {
 	font-size: 17px;
 }
 
-label{
+label {
 	font-size: 20px;
 }
 
@@ -100,7 +100,7 @@ fieldset {
   display: flex;
   justify-content: space-around;
   height: 160px;
-  width:675px ;
+  width: 675px;
 }
 
 #familia-conteudo {
