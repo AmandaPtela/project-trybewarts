@@ -4,15 +4,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
-    <header class="header"> 
+    <div class="header">
+        <img class="trybewarts-header-logo" height="50px" src="images/trybewarts-header-logo.svg"> 
         <h1>Trybewarts</h1>
-        <input type="text" placeholder="Email" >
-        <input type="password" placeholder="Senha" >
-        <button type="submit">Entrar</button>
-    </header>
+        <form class="trybewarts-login">
+            <input class="input-login" type="text" name="email" placeholder="Email">
+            <input class="input-login" type="password" name="password" placeholder="Senha">
+            <button class="botao-login" type="submit">Entrar</button>
+        </form>
+    </div>
     
 </body>
 </html>

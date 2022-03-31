@@ -1,0 +1,23 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-items: center;
+    background-color: rgb(50 , 167 , 145);
+    color: white;
+}
+.trybewarts-login{
+    display: flex;
+    justify-content: space-around;
+}
+.input-login, .botao-login{
+    border-radius: 0.5em;
+    border-style: none;
+    width: 100px;
+    height: 22px;
+}
