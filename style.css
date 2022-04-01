@@ -39,18 +39,18 @@ body {
   text-align: center;
 }
 
-.textarea {
-  display: block;
-}
-
-main {
+#tudo {
   display: flex;
   flex-direction: row-reverse;
-  justify-content: space-evenly;
+  align-items: center;
 }
 
 h2 {
   text-align: center;
+}
+
+main {
+  display: flex;
 }
 
 #principal-da-main {
@@ -86,7 +86,7 @@ label {
   font-size: 20px;
 }
 
-.evaluation-form {
+#evaluation-form {
   width: 675px;
   display: flex;
   flex-direction: column;
@@ -94,13 +94,6 @@ label {
 
 #trybewarts-forms-logo {
   height: 500px;
-}
-
-fieldset {
-  display: flex;
-  justify-content: space-around;
-  height: 160px;
-  width: 675px;
 }
 
 #familia-conteudo {
@@ -113,12 +106,27 @@ fieldset {
   font-size: 20px;
 }
 
+p {
+  font-size: 25px;
+  line-height: 20px;
+  margin-bottom: 10px;
+}
+
 #label-family {
   display: flex;
   flex-flow: column;
   justify-content: center;
   width: 200px;
   padding: 10px;
+}
+
+#conteudo-familia-conteudo {
+  display: flex;
+  flex-flow: column;
+}
+
+.input-familia {
+  margin-top: 15px;
 }
 
 p {
@@ -129,13 +137,14 @@ p {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
-  width: 300px;
+  width: 350px;
   padding: 10px;
-  margin-top: 20px;
 }
 
-.input-familia {
-  margin-right: 7px;
+#conteudo-conteudo {
+  display: flex;
+  flex-flow: row wrap;
+  width: 250px;
 }
 
 #conjunto {
