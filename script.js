@@ -13,14 +13,11 @@ function login() {
 }
 botaoLogin.addEventListener('click', login);
 
-
 function agreeButton() {
-
   if (check.ariaChecked) {
     botaoEnviar.disabled = true;
   } else {
     botaoEnviar.disabled = false;
   }
 }
-
 check.addEventListener('click', agreeButton);
