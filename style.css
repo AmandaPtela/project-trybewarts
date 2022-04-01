@@ -129,10 +129,6 @@ p {
   margin-top: 15px;
 }
 
-p {
-  margin-bottom: 0;
-}
-
 #label-content {
   display: flex;
   flex-flow: row wrap;
