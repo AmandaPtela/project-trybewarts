@@ -116,7 +116,7 @@ p {
   margin-bottom: 5px;
 }
 
-#label-family {
+#labels-family {
   display: flex;
   flex-flow: column;
   justify-content: center;
