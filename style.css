@@ -113,7 +113,7 @@ p {
   margin-bottom: 5px;
 }
 
-#label-family {
+#labels-family {
   display: flex;
   flex-flow: column;
   justify-content: center;
@@ -135,10 +135,9 @@ p {
   width: 15px;
 }
 
-#label-content {
-  display: flex;
+#labels-content {
+  display: inline-block;
   flex-flow: row wrap;
-  justify-content: center;
   width: 420px;
   height: 200px;
   font-size: 40px;
