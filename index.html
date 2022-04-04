@@ -5,6 +5,9 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Yusei+Magic&display=swap" rel="stylesheet"> 
         <title>Trybewarts</title>
     </head>
 
@@ -37,21 +40,22 @@
 		  				<option id="pytherina-house" value = "Pytherina" >Pytherina</option>
 		  			</select>
 		  		</div>
+          <hr width="675px">
           <div>
             <div id="familia-conteudo">
               <div id="labels-family">
-                <label id="label-family" for="">Qual sua família?</label>
+                <h3 id="label-family" for="">Qual sua família?</h3>
                 <div id="conteudo-familia" >
-		  						<input class="input-familia" type="radio" name="family" value="Frontend"/>
-                	<label for="">Familia Frontend</label>
-                	<input class="input-familia" type="radio" name="family" value="Backend"/>
-                	<label for="">Familia Backend</label>
-                	<input class="input-familia" type="radio" name="family" value="FullStack"/>
-                	<label for="">Familia FullStack</label>
+		  						<span><input class="input-familia" type="radio" name="family" value="Frontend"/>
+                	<label for="">Familia Frontend</label></span>
+                	<span> <input class="input-familia" type="radio" name="family" value="Backend"/>
+                	<label for="">Familia Backend</label></span>
+                	<span> <input class="input-familia" type="radio" name="family" value="FullStack"/>
+                	<label for="">Familia FullStack</label></span>
 		  					</div>	
               </div>
               <div id="labels-content">
-                <label id="label-content" for="">Qual conteúdo você está com mais vontade de aprender?</label>
+                <h3 id="label-content" for="">Qual conteúdo você está com mais vontade de aprender?</h3>
 		  					<div id="conteudo-conteudo" >
                 	<input class="input-familia" type="checkbox" value="HoFs" />
                 	<label for="">HoFs</label>
@@ -67,11 +71,11 @@
                 	<label for="">Python</label>
 		  					</div>
               </div>
-            </div>
+            </div><hr width="675px">
             <br>
               <div id="conjunto">
                 <div id="label-rate">
-                  <label for="">Como você avalia a Trybewarts?</label>
+                  <h3>Como você avalia a Trybewarts? </h3>
                   <input type="radio" value="1" name="rate" />
                   <label for="">1</label>
                   <input type="radio" value="2" name="rate" />
@@ -92,14 +96,14 @@
                   <label for="">9</label>
                   <input type="radio" value="10" name="rate" />
                   <label for="">10</label>
-                </div>
+                </div><hr width="675px">
                 <br>
                 <div class="texto-final">
-                  <label for="textarea" class="textarea">Deixe seu comentário:</label>
+                  <h3 for="textarea" class="textarea">Deixe seu comentário:</h3>
                   <textarea name="" id="textarea" cols="80" rows="10" maxlength="500"></textarea>
                 </div>
                 <div id="concordancia" >
-                  <label id="label-infos" for="">Você concorda com o uso das informações acima?</label>
+                  <h3 id="label-infos" for="">Você concorda com o uso das informações acima?</h3>
                   <input id="agreement" type="checkbox">
                 </div>
               	<button id="submit-btn" type="submit" disabled >Enviar</button>

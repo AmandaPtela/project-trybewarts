@@ -3,6 +3,7 @@ body {
   padding: 0;
   margin: 0;
   background-color: rgba(216, 207, 207, 0.363);
+  font-family: 'Yusei Magic', sans-serif;
 }
 
 .header {
@@ -43,11 +44,20 @@ body {
   display: flex;
   flex-direction: row-reverse;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
+  min-width: 80%;
 }
 
 h2 {
   text-align: center;
+  font-size: 30px;
+  letter-spacing: 1.5px;
+}
+
+h3 {
+  text-align: left;
+  font-size: 22px;
+  letter-spacing: 1.5px;
 }
 
 main {
@@ -62,9 +72,9 @@ main {
 }
 
 select {
-  width: 270px;
+  width: 260px;
   height: 50px;
-  font-size: 17px;
+  font-size: 20px;
   background-color: white;
   border-radius: 0.5em;
   border-style: none;
@@ -80,7 +90,7 @@ option {
   height: 50px;
   width: 320px;
   margin: 5px;
-  font-size: 17px;
+  font-size: 20px;
 }
 
 label {
@@ -93,89 +103,102 @@ label {
   flex-direction: column;
 }
 
+#form1 {
+  margin-bottom: 20px;
+}
+
 #trybewarts-forms-logo {
   height: 500px;
 }
 
 #familia-conteudo {
-  height: 250px;
+  height: 220px;
   display: flex;
   justify-content: flex-start;
-  margin-top: 5px;
-  padding: 10px;
   text-align: start;
   font-size: 20px;
-}
-
-p {
-  font-size: 25px;
-  height: 50px;
-  margin-bottom: 5px;
+  align-items: center;
 }
 
 #labels-family {
   display: flex;
   flex-flow: column;
   justify-content: center;
-  width: 220px;
+  width: 240px;
+  height: 200px;
   padding: 10px;
 }
 
-#conteudo-familia {
+span {
   display: flex;
-  flex-flow: column;
-  justify-content: space-around;
+  justify-content: start;
   align-items: baseline;
+  font-weight: 100;
 }
 
 .input-familia {
-  margin-top: 15px;
-  margin-left: 7px;
+  margin-right: 7px;
   height: 15px;
   width: 15px;
 }
 
 #labels-content {
-  display: inline-block;
-  flex-flow: row wrap;
-  width: 420px;
+  display: flex;
+  flex-flow: column;
+  width: 400px;
   height: 200px;
   font-size: 40px;
+  justify-content: center;
 }
 
 #conteudo-conteudo {
   display: flex;
   flex-flow: row wrap;
-  width: 260px;
+  width: 290px;
   justify-content: space-around;
   align-items: baseline;
 }
 
 #label-rate {
   display: flex;
-  align-items: baseline;
+  align-items: center;
   justify-content: space-around;
+  height: 25px;
+  margin-bottom: 35px;
+}
+#label-rate input{
+  margin-left: 10px;
+  height: 20px;
+  width: 30px;
 }
 
 #conjunto {
   text-align: start;
 }
 
+.texto-final {
+  margin-top: -15px;
+  line-height: 1px;
+}
+
 #concordancia {
-  justify-content: space-around;
+  display: flex;
+  justify-content: start;
   align-items: baseline;
 }
 
 #agreement {
   height: 20px;
   width: 20px;
+  margin-left: 15px;
 }
 
 #submit-btn {
   width: 680px;
   color: white;
-  background-color: rgb(80, 20, 114);
+  background-color: #501472;
   font-weight: 700;
+  font-size: 20px;
   height: 39px;
   text-align: center;
   border-style: none;
