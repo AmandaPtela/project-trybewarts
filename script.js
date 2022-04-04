@@ -4,10 +4,20 @@ const senha = document.querySelector('#login-senha');
 const botaoEnviar = document.getElementById('submit-btn');
 const check = document.getElementById('agreement');
 
-const login=() =>
-email.value === 'tryber@teste.com' && senha.value === '123456' ? alert('Olá, Tryber!') : alert ('Email ou senha inválidos.');
-botaoLogin.addEventListener('click', login);
+const logar = function login() {
+  if (email.value === 'tryber@teste.com' && senha.value === '123456') {
+    alert('Olá, Tryber!');
+  } else {
+    alert('Email ou senha inválidos.');
+  }
+};
+botaoLogin.addEventListener('click', logar);
 
-const agreeButton=() =>
-check.ariaChecked ? botaoEnviar.disabled = true : botaoEnviar.disabled = false;
-check.addEventListener('click', agreeButton);
+const concordar = function agreeButton() {
+  if (check.ariaChecked) {
+    botaoEnviar.disabled = true;
+  } else {
+    botaoEnviar.disabled = false;
+  }
+};
+check.addEventListener('click', concordar);

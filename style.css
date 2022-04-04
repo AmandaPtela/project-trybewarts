@@ -3,7 +3,7 @@ body {
   padding: 0;
   margin: 0;
   background-color: rgba(216, 207, 207, 0.363);
-  font-family: 'Atma', cursive;
+  font-family: Atma, cursive;
 }
 
 .header {
@@ -52,14 +52,14 @@ h2 {
   text-align: center;
   font-size: 30px;
   letter-spacing: 2px;
-  font-family: 'Yusei Magic', sans-serif;
+  font-family: Yusei Magic, sans-serif;
 }
 
 h3 {
   text-align: left;
   font-size: 22px;
   letter-spacing: 2px;
-  font-family: 'Yusei Magic', sans-serif;
+  font-family: Yusei Magic, sans-serif;
 }
 
 main {
@@ -170,7 +170,8 @@ span {
   margin-bottom: 35px;
   font-weight: 400;
 }
-#label-rate input{
+
+#label-rate input {
   margin-left: 10px;
   height: 30px;
   width: 30px;
@@ -185,9 +186,10 @@ span {
   margin-top: -15px;
   line-height: 1px;
 }
+
 #textarea {
   font-size: 25px;
-  border-color: #501472;
+  border-color: purple;
   border-width: 1.5px;
   max-width: 675px;
 }
@@ -207,7 +209,7 @@ span {
 #submit-btn {
   width: 680px;
   color: white;
-  background-color: #501472;
+  background-color: purple;
   font-weight: 700;
   font-size: 20px;
   height: 39px;
@@ -225,7 +227,7 @@ footer {
   color: white;
   font-size: 20px;
   letter-spacing: 2px;
-  font-family: 'Yusei Magic', sans-serif;
+  font-family: Yusei Magic, sans-serif;
   margin: 0;
   margin-top: 20px;
 }
