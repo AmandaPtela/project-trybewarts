@@ -3,7 +3,7 @@ body {
   padding: 0;
   margin: 0;
   background-color: rgba(216, 207, 207, 0.363);
-  font-family: 'Yusei Magic', sans-serif;
+  font-family: 'Atma', cursive;
 }
 
 .header {
@@ -51,13 +51,15 @@ body {
 h2 {
   text-align: center;
   font-size: 30px;
-  letter-spacing: 1.5px;
+  letter-spacing: 2px;
+  font-family: 'Yusei Magic', sans-serif;
 }
 
 h3 {
   text-align: left;
   font-size: 22px;
-  letter-spacing: 1.5px;
+  letter-spacing: 2px;
+  font-family: 'Yusei Magic', sans-serif;
 }
 
 main {
@@ -133,7 +135,7 @@ span {
   display: flex;
   justify-content: start;
   align-items: baseline;
-  font-weight: 100;
+  font-weight: 400;
 }
 
 .input-familia {
@@ -157,6 +159,7 @@ span {
   width: 290px;
   justify-content: space-around;
   align-items: baseline;
+  font-weight: 400;
 }
 
 #label-rate {
@@ -165,11 +168,13 @@ span {
   justify-content: space-around;
   height: 25px;
   margin-bottom: 35px;
+  font-weight: 400;
 }
 #label-rate input{
   margin-left: 10px;
-  height: 20px;
+  height: 30px;
   width: 30px;
+  align-items: center;
 }
 
 #conjunto {
@@ -179,6 +184,12 @@ span {
 .texto-final {
   margin-top: -15px;
   line-height: 1px;
+}
+#textarea {
+  font-size: 25px;
+  border-color: #501472;
+  border-width: 1.5px;
+  max-width: 675px;
 }
 
 #concordancia {
@@ -207,7 +218,14 @@ span {
 }
 
 footer {
-  width: 100%;
-  text-align: center;
+  display: flex;
+  justify-content: center;
+  height: 65px;
   background-color: rgb(95, 94, 94);
+  color: white;
+  font-size: 20px;
+  letter-spacing: 2px;
+  font-family: 'Yusei Magic', sans-serif;
+  margin: 0;
+  margin-top: 20px;
 }
