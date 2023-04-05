@@ -1,10 +1,22 @@
-# :construction: README em construção ! :construction:
-<!-- Olá, Tryber!
-Esse é apenas um arquivo inicial para o README do seu projeto.
-É essencial que você preencha esse documento por conta própria, ok?
-Não deixe de usar nossas dicas de escrita de README de projetos, e deixe sua criatividade brilhar!
-:warning: IMPORTANTE: você precisa deixar nítido:
-- quais arquivos/pastas foram desenvolvidos por você; 
-- quais arquivos/pastas foram desenvolvidos por outra pessoa estudante;
-- quais arquivos/pastas foram desenvolvidos pela Trybe.
--->
+  <strong> Trybewarts </strong><br />
+
+Projeto feito em dupla que consiste na criação de um formulário com a temática de **Harry Potter**.
+
+Foi desenvolvido utilizando _HTML, CSS e JavaScript_.
+<br>
+Dupla desenvolvedora:
+<a href="https://github.com/matheuscoelhomalta" target="_blank">Matheus Coelho Malta</a> |
+<a href="https://github.com/AmandaPtela" target="_blank">Amanda Portela</a>
+
+  <summary><strong>Rodando o projeto‼️ </strong></summary><br />
+  
+  1. Clone o repositório
+   - `git clone git@github.com:AmandaPtela/trybewarts.git`
+    
+  2. Instale as dependências e inicialize o projeto
+  - Instale as dependências:
+    - `npm install`
+    - Inicialize o projeto:
+    - Na pasta onde o projeto está salvo, clique com o botão direito sobre o arquivo _HTML_.
+    - Selecione _abrir com_: escolha um navegador (Uma nova página deve abrir no seu navegador com o projeto)
+  
